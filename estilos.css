@@ -1,0 +1,38 @@
+* {
+    font-family:  'Arial', 'Helvetica', sans-serif ;
+    padding: 5px;
+}
+
+header {
+    display: grid;
+    justify-content:center;
+    background-color: #ff0000;
+}
+
+nav {
+    display: grid;
+    justify-content: center;
+    background-color: #a7d129;
+}
+section {
+    display: grid;
+    justify-content: center;
+    background-color: #12e6c8;
+    width: 70%;
+    height: 100%;
+}
+
+article {
+    
+    display: grid;
+    background-color: #c7004c;
+    justify-content: center;
+    grid-template-areas: 20px 20px 20px 20px;
+    
+
+}
+footer {
+    background-color: #621295;
+    display: grid;
+    justify-content: center;
+}
